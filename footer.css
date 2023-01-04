@@ -1,0 +1,43 @@
+.footer {
+  background-color: #eeeeee;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.cards-container {
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+}
+
+.sections > h3{
+  margin-top: 30px;
+  position: relative;
+  right: 180px ;
+} 
+
+.cards > img {  
+  height: 400px;
+  margin: 25px 25px 0 25px;
+}
+
+.cards > h5 {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.cards > p{
+  font-size: 14px;
+  margin-left: 50px;
+}
+
+.cards > span {
+  font-size: 12px;
+  font-weight: 800;
+  margin-left: 50px;
+}

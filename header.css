@@ -1,0 +1,25 @@
+.header{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-left: 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar > img {
+  width:90px;
+  padding-right: 10px;
+}
+
+.navbar > h4{
+  /* margin-top: 5px; */
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 25px;
+}

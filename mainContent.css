@@ -1,0 +1,44 @@
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  overflow: hidden;
+  height: 650px;
+}
+
+.image-box {
+  display: flex;
+  font-display: row;
+}
+
+.image-box {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.mainContent > image {
+  width: 100%;
+  z-index: 99;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  position: absolute;
+  top: 370px;
+  left: 100px;
+}
+
+.buttons > button {
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 0.6;
+  /* padding: 30px; */
+}
+.right {
+  float: left;
+  left: 1470px;
+  position: relative;
+}

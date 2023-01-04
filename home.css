@@ -1,0 +1,12 @@
+body{
+  background-color: white !important;
+}
+.middle, .FeatureADs{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+
